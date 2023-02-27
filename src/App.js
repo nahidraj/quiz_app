@@ -58,6 +58,7 @@ function App() {
     setTotalScore(0);
     setCorrectAnswer(null);
     setPickedAnswer(null);
+    // nothing
   };
   return (
     <div className="container text-center mt-5">
