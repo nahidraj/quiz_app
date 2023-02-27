@@ -1,0 +1,30 @@
+.boxes {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 24px;
+}
+
+.quiz-answer {
+  padding: .5rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.quiz-answer:hover {
+  background-color: #232323;
+  color: white;
+}
+
+.correct-answer {
+  border: 2px solid green !important;
+}
+
+.incorrect_answer {
+  border: 2px solid red;
+}
+
+.disabled_answer {
+  pointer-events: none;
+}
