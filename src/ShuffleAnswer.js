@@ -1,5 +1,3 @@
-import React from "react";
-
 const ShuffleAnswer = (allAnswers) => {
   const answers = [allAnswers.correct_answer, ...allAnswers.incorrect_answers];
   for (let i = answers.length - 1; i > 0; i--) {
